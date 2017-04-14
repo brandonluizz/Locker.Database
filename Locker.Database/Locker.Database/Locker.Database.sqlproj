@@ -65,5 +65,6 @@
     <Build Include="dbo\Tables\Sector.sql" />
     <Build Include="dbo\Tables\LockerBlock.sql" />
     <Build Include="dbo\Tables\Locker.sql" />
+    <Build Include="dbo\Tables\UserActivity.sql" />
   </ItemGroup>
 </Project>
