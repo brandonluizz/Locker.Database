@@ -5,6 +5,6 @@
 	[CustomerId] INT NOT NULL,
 	[InitialRentalDate] DATETIME NOT NULL DEFAULT(GETDATE()),
 	[FinalRentalDate] DATETIME NULL,
-	CONSTRAINT [FK_UserActivity_Locker] FOREIGN KEY ([LockerId]) REFERENCES [Locker]([LockerId]),
-	CONSTRAINT [FK_UserActivity_User] FOREIGN KEY ([CustomerId]) REFERENCES [Customer]([CustomerId])
+	CONSTRAINT [FK_CustomerActivity_Locker] FOREIGN KEY ([LockerId]) REFERENCES [Locker]([LockerId]),
+	CONSTRAINT [FK_CustomerActivity_User] FOREIGN KEY ([CustomerId]) REFERENCES [Customer]([CustomerId])
 )

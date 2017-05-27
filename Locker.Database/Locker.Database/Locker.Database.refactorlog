@@ -14,4 +14,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="UserId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="a82ad2fb-8171-4b93-b12f-6ffa991f272b" ChangeDateTime="05/27/2017 00:57:14">
+    <Property Name="ElementName" Value="[dbo].[Locker].[IsActive]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Locker]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsUsing" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cccdaf5f-22d5-4509-8453-3194a0c4d1fc" ChangeDateTime="05/27/2017 01:07:33">
+    <Property Name="ElementName" Value="[dbo].[Purchaser].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Purchaser]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PurchaserId" />
+  </Operation>
 </Operations>
