@@ -7,5 +7,6 @@
 	[BirthDate] DATE NOT NULL,
 	[RegistrationDate] DATETIME NOT NULL DEFAULT(GETDATE()),
 	[ExpirationDate] DATETIME NOT NULL,
+	[TagUID] VARCHAR(20) NOT NULL,
 	CONSTRAINT [FK_Customer_Trader] FOREIGN KEY (TraderId) REFERENCES [Trader](TraderId)
 )
